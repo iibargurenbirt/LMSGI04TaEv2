@@ -21,9 +21,9 @@
 			<body>
 				<header>
 					<img src= "../img/logotipo.png" alt= "Reservas" />
-					<a href="tienda.html">Tienda</a>
-					<a href="equipos.html">Equipos</a>
-					<a href="partidos.html">Partidos</a>
+					<a href="tienda.xml">Tienda</a>
+					<a href="equipos.xml">Equipos</a>
+					<a href="partidos.xml">Partidos</a>
 				</header>
 				
 				<main>
