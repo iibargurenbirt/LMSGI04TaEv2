@@ -31,7 +31,7 @@
 					
 					<article class="equipos">
 						<h4><xsl:value-of select="nombre"/></h4>
-						<xsl:apply-templates select="jugador/jugador[@titular='si']"/>
+						<xsl:apply-templates select="jugadores/jugador[@titular='si']"/>
 					</article>
 				</main>
 
@@ -43,7 +43,10 @@
 		</html>
 	</xsl:template>
 
-	<xsl:template match="jugador/jugador[@titular='si']">
+	<xsl:template match="jugadores/jugador">
 		<p><xsl:value-of select="@camiseta"/> - <xsl:value-of select="nombre"/></p>
 	</xsl:template>
+	<xsl:template match="tienda"/>
+	<xsl:template match="partido"/>
+	<xsl:template match="equipo"/>
 </xsl:stylesheet>
