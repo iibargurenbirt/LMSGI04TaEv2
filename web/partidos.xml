@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="partidos.xsl" type="text/xsl"?>
+<!-- 
+    Enlace público: https://iibargurenbirt.github.io/LMSGI04TaEv2/
+    Autoevaluación: https://youtu.be/ePCFNse2eZg
+-->
 <club_voleibol>
     <!-- Información de la tienda -->
     <tienda ubicacion="Bilbao">
